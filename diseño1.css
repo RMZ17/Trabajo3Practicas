@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tilt Neon', cursive;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color:#6b373ec5;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+/* Menú */
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    background: #58252cc5;
+    padding: 0 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+header .menu{
+    position: relative;
+    display: flex;
+}
+
+header .menu li{
+    margin-left: 30px;
+}
+
+header .menu li a{
+    color: #460e15;
+    font-weight: 600;
+    padding: 10px;
+    transition: 0.3s;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+header .menu li a:hover{
+    color: white;
+}
+
+/* Contenido */
+
+.contenido{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.contenido .mensaje{
+    position: relative;
+    max-width: 600px;
+}
+
+.contenido .mensaje h2{
+    font-size: 70px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #460e15;
+    line-height: 1.2;
+}
+
+.contenido .mensaje h2 span{
+    background-color: #5a282fc5;
+    color: white;
+    padding: 0 10px;
+    font-weight: 600;
+}
+
+
+.contenido .mensaje p{
+    font-size: 28px;
+    line-height: 1.5;
+    color: #5a1e25;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.contenido .mensaje a{
+    text-transform: uppercase;
+    color: white;
+    background-color: #460e15;
+    padding: 10px 20px;
+    margin-left: 30px;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    transition: 0.3s;
+}
+
+.contenido .mensaje a:hover{
+    color: #460e15;
+    background-color: white;
+}
+
+/* Imagen */
+
+.contenido .copa{
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 250px;
+    margin-top: -50px;
+}
+
+.contenido .copa img{
+    width: 900px;
+}
+
+/* Circulo */
+
+.circulo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #5a282fc5;
+    clip-path: circle(800px at right 850px);
+    width: 100%;
+    height: 100%;
+}
+
+/* Copyright*/
+
+.copyright{
+    position: absolute;
+    bottom: 0;
+    left: 800px;
+    margin-bottom: 20px;
+    padding: 0 300px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright p{
+    color: white;
+}
+
+/* Redes Sociales */
+
+.redes{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px 30px;
+}
+
+.redes li{
+    padding: 10px;
+}
+
+.redes li a{
+    color: white;
+    font-size: 25px;
+    transition: 0.3s;
+}
+
+.redes li a:hover{
+    color: #460e15;
+}
